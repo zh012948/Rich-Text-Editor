@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+body {
+    background-color: #338cf4;
+}
+
+
+.container {
+    background-color: white;
+    padding: 50px 30px;
+    width: 90vmin;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+
+button {
+    width: 28px;
+    height: 28px;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+select {
+    background: transparent;
+}
+
+.active {
+    background-color: #b0d2ff;
+    border-radius: 3px;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+input[type='color'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+#text-input {
+    background-color: white;
+    height: 50vh;
+    margin-top: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
